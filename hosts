@@ -1,13 +1,13 @@
 
 [load_balancers]
-frontend1.9518.internal
+frontend1 frontend1.9518.internal
 
 [app_servers]
-app1.9518.internal
-app2.9518.internal
+app1 app1.9518.internal
+app2 app2.9518.internal
 
 [database_servers]
-appdb1.9518.internal
+appdb1 appdb1.9518.internal
 
 [all:vars]
 timeout=60
